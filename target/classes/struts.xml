@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+    <constant name="struts.devMode" value="true" />
+
+    <package name="basicstruts2"  extends="struts-default">
+        <action name="index">
+            <result type="dispatcher">/index.jsp</result>
+        </action>
+
+        <action name="hello" class="com.dld.hll.financial.action.HelloWorldAction" method="execute">
+            <result name="success" type="dispatcher">/HelloWorld.jsp</result>
+        </action>
+
+        <action name="emplist" class="com.dld.hll.financial.emp.EmpQueryAction" method="execute">
+            <result name="success" type="dispatcher">/emp/empList.jsp</result>
+        </action>
+
+        <action name="empadd" class="com.dld.hll.financial.emp.EmpAddAction" method="execute">
+            <result name="success" type="dispatcher">/emp/empAdd.jsp</result>
+        </action>
+
+        <action name="empaddDo" class="com.dld.hll.financial.emp.EmpAddDoAction" method="execute">
+
+            <result name="success" type="chain">emplist</result>
+        </action>
+    </package>
+
+</struts>
