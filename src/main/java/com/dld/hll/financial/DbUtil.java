@@ -18,10 +18,10 @@ public class DbUtil {
         String username = "root";
         String pwd = "Hualala4039!";
 
-        url = "jdbc:h2:tcp://localhost/~/test";
-        driver = "org.h2.Driver";
-        username = "sa";
-        pwd = null;
+//        url = "jdbc:h2:tcp://localhost/~/test";
+//        driver = "org.h2.Driver";
+//        username = "sa";
+//        pwd = null;
         Connection conn = null;
         try {
             Class.forName(driver);

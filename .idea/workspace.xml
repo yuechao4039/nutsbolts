@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccc0585b-6b2d-4d6f-bc88-13ac1017cda0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../provisional/src/main/java/com/baeldung/protobuf/AddressBookProtos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../provisional/src/main/resources/addressbook3.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../provisional/src/main/resources/provisional.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mrelease/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mrelease/src/main/java/io/sndj/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mrelease/src/test/java/io/sndj/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dld/hll/financial/DbUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dld/hll/financial/DbUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
           <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
           <provider selected="true" editor-type-id="text-editor">
@@ -83,6 +78,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dld/hll/financial/DbUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="23" column="21" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="23" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -104,7 +111,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -114,7 +121,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dld/hll/financial/model/emp/EmpModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dld/hll/financial/service/emp/EmpServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dld/hll/financial/emp/EmpDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dld/hll/financial/DbUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/emp.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/dld/hll/financial/emp/EmpQueryAction.java" />
@@ -130,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dld/hll/financial/emp/EmpAddDoAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dld/hll/financial/emp/EmpServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dld/hll/financial/DbUtil.java" />
       </list>
     </option>
   </component>
@@ -151,12 +158,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="nutsbolts Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="nutsbolts Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="jetty" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -228,76 +229,11 @@
               <item name="nutsbolts" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nutsbolts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nutsbolts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="emp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nutsbolts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nutsbolts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nutsbolts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nutsbolts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nutsbolts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nutsbolts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nutsbolts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nutsbolts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="emp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nutsbolts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nutsbolts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nutsbolts" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="nutsbolts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.commons:commons-lang3:3.9" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="nutsbolts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.commons:commons-lang3:3.9" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-lang3-3.9.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nutsbolts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.commons:commons-lang3:3.9" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-lang3-3.9.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="lang3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,7 +246,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565363984730" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565364471734" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -426,12 +362,12 @@
       <option name="presentableId" value="Default" />
       <updated>1565333097749</updated>
       <workItem from="1565333102594" duration="8564000" />
-      <workItem from="1565356754225" duration="7204000" />
+      <workItem from="1565356754225" duration="7694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15768000" />
+    <option name="totallyTimeSpent" value="16258000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,7 +394,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5974265" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.23388582" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.23345588" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290441" />
@@ -474,7 +410,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.1928975" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.1928975" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="BPMNPalette" order="6" />
@@ -602,16 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" selection-start-line="15" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dld/hll/financial/DbUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,6 +695,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dld/hll/financial/DbUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
