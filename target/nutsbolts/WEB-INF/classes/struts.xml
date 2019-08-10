@@ -28,6 +28,21 @@
 
             <result name="success" type="chain">emplist</result>
         </action>
+
+        <action name="empModify" class="com.dld.hll.financial.emp.EmpModifyAction" method="execute">
+
+            <result name="success" type="dispatcher">/emp/empUpdate.jsp</result>
+        </action>
+
+        <action name="empModifyDo" class="com.dld.hll.financial.emp.EmpModifyDoAction" method="execute">
+            <result name="success" type="chain">emplist</result>
+        </action>
+
+        <action name="empDelDo" class="com.dld.hll.financial.emp.EmpDelDoAction" method="execute">
+            <result name="success" type="chain">emplist</result>
+        </action>
+
+
     </package>
 
 </struts>

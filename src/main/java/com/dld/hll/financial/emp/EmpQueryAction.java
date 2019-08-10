@@ -13,19 +13,23 @@ public class EmpQueryAction extends ActionSupport {
 
     private List<EmpModel> models;
 
-    private String userName;
+    private EmpModel empModel;
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setEmpModel(EmpModel empModel) {
+        this.empModel = empModel;
+    }
+
+    public EmpModel getEmpModel() {
+        return empModel;
     }
 
     @Override
     public String execute() throws Exception {
-        System.out.println(userName);
+
 
         EmpServiceImpl empService = new EmpServiceImpl();
 
-        models = empService.query();
+        models = empService.query(getEmpModel());
 
 
         return SUCCESS;

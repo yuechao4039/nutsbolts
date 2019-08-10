@@ -11,7 +11,6 @@
 
 <s:url var="emplistLink" action='emplist'>
 </s:url>
-
 <a href="${emplistLink}">返回</a>
 
 
@@ -24,7 +23,7 @@
     <s:textfield name="empModel.transportationAllowance" label="交通补助"></s:textfield>
     <s:textfield name="empModel.allowancePercent" label="补贴调整率"></s:textfield>
     <s:textfield name="empModel.totalSalary" label="合计工资"></s:textfield>
-
+    <s:textfield name="empModel.deptId" label="所属部门"></s:textfield>
 
     <s:submit value="提交"/>
 </s:form>

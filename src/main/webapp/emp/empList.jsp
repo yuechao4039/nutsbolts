@@ -8,13 +8,14 @@
 </head>
 <body>
 <a href="<s:url action='empadd'/>">ADD</a>
-<%--
-<a href="<s:url action='empadel'/>">DEL</a>
-<a href="<s:url action='empupdate'/>">UPDATE</a>--%>
 
-<s:url var="emplistLink" action='emplist'>
-    <s:param name="userName">Bruce Phillips</s:param>
-</s:url>
+
+
+<s:form  action="emplist" method="POST">
+    <s:textfield name="empModel.empCode" label="员工编号" value="%{empModel.empCode}" ></s:textfield>
+    <s:submit value = "查询"/>
+
+</s:form>
 
 <a href="${emplistLink}">QUERY</a>
 
@@ -36,7 +37,12 @@
     <tbody>
     <s:iterator value="models" step="1" var="model">
         <tr>
-            <td><s:property value="#model.empId"/></td>
+            <td>
+                <a href="<s:url action='empModify'><s:param name='empModel.empId' value='#model.empId'></s:param></s:url> ">编辑</a>
+
+
+                <a href="<s:url action='empDelDo'><s:param name='empModel.empId' value='#model.empId'></s:param></s:url> ">删除</a>
+            </td>
             <td><s:property value="#model.empCode"/></td>
             <td><s:property value="#model.empName"/></td>
             <td><s:property value="#model.jobPosition"/></td>
